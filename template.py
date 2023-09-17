@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
+logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')     #prints this log info on the terminal upon executing template.py
 
 project_name = "cnnClassifier"
 
@@ -20,8 +20,9 @@ list_of_files = [
     "dvc.yaml",
     "params.yaml",
     "requirements.txt",
-    "steup.py",
-    "research/trials.ipynb"
+    "setup.py",
+    "research/trials.ipynb",
+    "templates/index.html"
 ]
 
 for filepath in list_of_files:
